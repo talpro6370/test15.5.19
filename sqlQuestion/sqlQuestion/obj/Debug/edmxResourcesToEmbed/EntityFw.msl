@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="CSGModelStoreContainer" CdmEntityContainer="CSGEntities">
+    <EntitySetMapping Name="Courses">
+      <EntityTypeMapping TypeName="CSGModel.Cours">
+        <MappingFragment StoreEntitySet="Courses">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="NAME" ColumnName="NAME" />
+          <ScalarProperty Name="HOURS" ColumnName="HOURS" />
+          <ScalarProperty Name="AVG_GRADE" ColumnName="AVG_GRADE" />
+          <ScalarProperty Name="NUM_OF_STUDENTS" ColumnName="NUM_OF_STUDENTS" />
+          <ScalarProperty Name="HIGHEST_GRADE" ColumnName="HIGHEST_GRADE" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Grades">
+      <EntityTypeMapping TypeName="CSGModel.Grade">
+        <MappingFragment StoreEntitySet="Grades">
+          <ScalarProperty Name="COURSE_ID" ColumnName="COURSE_ID" />
+          <ScalarProperty Name="STUDENT_ID" ColumnName="STUDENT_ID" />
+          <ScalarProperty Name="GRADE1" ColumnName="GRADE" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Students">
+      <EntityTypeMapping TypeName="CSGModel.Student">
+        <MappingFragment StoreEntitySet="Students">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="FIRST_NAME" ColumnName="FIRST_NAME" />
+          <ScalarProperty Name="LAST_NAME" ColumnName="LAST_NAME" />
+          <ScalarProperty Name="ADDRESS" ColumnName="ADDRESS" />
+          <ScalarProperty Name="AGE" ColumnName="AGE" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
