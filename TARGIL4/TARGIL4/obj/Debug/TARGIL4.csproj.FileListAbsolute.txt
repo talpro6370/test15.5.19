@@ -1,0 +1,7 @@
+C:\Users\talpr\source\repos\TARGIL4\TARGIL4\bin\Debug\TARGIL4.exe.config
+C:\Users\talpr\source\repos\TARGIL4\TARGIL4\bin\Debug\TARGIL4.exe
+C:\Users\talpr\source\repos\TARGIL4\TARGIL4\bin\Debug\TARGIL4.pdb
+C:\Users\talpr\source\repos\TARGIL4\TARGIL4\obj\Debug\TARGIL4.csprojAssemblyReference.cache
+C:\Users\talpr\source\repos\TARGIL4\TARGIL4\obj\Debug\TARGIL4.csproj.CoreCompileInputs.cache
+C:\Users\talpr\source\repos\TARGIL4\TARGIL4\obj\Debug\TARGIL4.exe
+C:\Users\talpr\source\repos\TARGIL4\TARGIL4\obj\Debug\TARGIL4.pdb
